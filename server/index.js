@@ -10,9 +10,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'))
 })
 
-app.use('/js', express.static(path.join(__dirname, '/main.js')))
+app.use('/js', express.static(path.join(__dirname, '/controller.js')))
 
-app.use('/css', express.static(path.join(__dirname, '/main.css')))
+app.use('/css', express.static(path.join(__dirname, '/index.css')))
 
 app.listen(port, () => {
     console.log('Listening on port ' + port)
