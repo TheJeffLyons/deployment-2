@@ -13,7 +13,7 @@ app.use(express.json())
 
 app.use('/js', express.static(path.join(__dirname, 'public/main.js')))
 
-app.use('/index', express.static(path.join(__dirname, '/index.css')))
+app.use('/styles', express.static(path.join(__dirname, '/index.css')))
 
 app.listen(port, () => {
     console.log('Listening on port ' + port)
