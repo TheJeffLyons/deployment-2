@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 
 app.use('/js', express.static(path.join(__dirname, '/controller.js')))
 
-app.use('/css', express.static(path.join(__dirname, '/index.css')))
+app.use('/index.css', express.static(path.join(__dirname, '/index.css')))
 
 app.listen(port, () => {
     console.log('Listening on port ' + port)
