@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../index.html'))
+    res.sendFile(path.join(__dirname, '/index.html'))
 })
 
 app.use('/js', express.static(path.join(__dirname, '/controller.js')))
