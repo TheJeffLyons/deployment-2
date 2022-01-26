@@ -7,12 +7,12 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/index.html'))
+    res.sendFile(path.join(__dirname, '../index.html'))
 })
 
 app.use('/js', express.static(path.join(__dirname, '/controller.js')))
 
-app.use('/index.css', express.static(path.join(__dirname, '/index.css')))
+app.use('/index', express.static(path.join(__dirname, '/index.css')))
 
 app.listen(port, () => {
     console.log('Listening on port ' + port)
