@@ -1,0 +1,26 @@
+.header {
+    color: red;
+    background-image: url(https://images.pexels.com/photos/732629/pexels-photo-732629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh
+    
+}
+
+.button {
+    margin: auto;
+    width: 10%;
+  border: 20px solid green;
+  padding: 200px;
+  align-content: center;
+  background-image: url(https://images.unsplash.com/photo-1598940603846-a1edd0ef2574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2448&q=80);
+}
+
+body {
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-content: center;
+}
