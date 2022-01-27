@@ -9,11 +9,13 @@
 
 .button {
     margin: auto;
-    width: 10%;
-  border: 20px solid green;
+    width: 15%;
+  border: 10px solid rgb(250, 250, 250);
   padding: 200px;
+  padding-top: 0pt;
+  height: 1vh;
   align-content: center;
-  background-image: url(https://images.unsplash.com/photo-1598940603846-a1edd0ef2574?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2448&q=80);
+  background-color: rgba(255, 99, 71, 0.246);
 }
 
 body {
@@ -24,3 +26,10 @@ body {
     color: white;
     align-content: center;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
